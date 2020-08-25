@@ -1,0 +1,10 @@
+$theme-color: green;
+
+.vue3-theme-green {
+  .el-button {
+    background: $theme-color;
+    width: 80px;
+    height: 35px;
+    color: #fff
+  }
+}

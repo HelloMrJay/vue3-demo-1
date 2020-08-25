@@ -1,0 +1,10 @@
+$theme-color: #00f;
+
+.vue3-theme-blue {
+  .el-button {
+    background: $theme-color;
+    width: 80px;
+    height: 35px;
+    color: #fff
+  }
+}
