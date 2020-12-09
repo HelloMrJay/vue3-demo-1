@@ -1,5 +1,5 @@
 <template>
-  <div id="app" :class="`vue3-theme-${theme}`">
+  <div id="app">
     <router-view />
   </div>
 </template>

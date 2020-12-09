@@ -9,7 +9,7 @@ const state: RootState = {
   theme: ''
 }
 
-const actions: ActionTree<RootState, any> = {
+const actions: ActionTree<RootState, RootState> = {
   changeThemeHandler({ commit }, theme: string) {
     commit('CHANGE_THEME', theme)
   }
